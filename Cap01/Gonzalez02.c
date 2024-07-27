@@ -4,8 +4,8 @@ Fecha: 23/07/2024
 Materia: Sistemas Operativos
 Tema: Programación en C V.2
 Requerimientos:
-  -Función que sume 2 enteros
-  -Función que calcule el área de una circunferecia
+  -Función que sume 2 enteros dados por el usuario
+  -Función que calcule el área de una circunferecia con un radio dado por el usuario
   -Función que de la bienvenida
 ***************************************************/
 #include <stdio.h>  // Incluye la biblioteca estándar de entrada y salida para usar printf y scanf
