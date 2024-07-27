@@ -1,2 +1,2 @@
 # Sistemas-Operativos
-Repositorio de programas creados para la materia deSistemas Operativos
+Repositorio de Jocelyne Gonzalez donde se añaden programas creados para la materia de Sistemas Operativos.
