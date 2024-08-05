@@ -1,0 +1,52 @@
+/*
+Autor: Jocelye Gonzalez
+Fecha: 30/07/2024
+Materia: Sistemas Operatviso
+Tema: Tipos de datos
+*/
+
+#include <stdio.h>
+
+/*Imprimir los diferentes tipos de datos que hay en C*/
+
+int main (int argc, char *argv[])
+{
+  
+//Declaración en inicialización de los diferentes tipos de datos
+  
+  int i=1;  //Entero
+  float j=2.5; //Flotante
+  long int k=2147483652; //Entero largo
+  char l = 'a'; //Caracter. El valor va entre comillas simples
+  short int m=1; //Entero corto
+  char n[] = "true"; //Cadena de caracteres (string). El nombre de la variable va seguido de corchetes y el valor debe ir encerrado en comillas dobles
+  double o = 11.3; //Doble precisión (flotante)
+  long long int p=1837459635874236991; // Entero largo (64 bits)
+  
+    
+ printf("Entero: %d \n", i); //Imprime un valor entero con el especificador %d (entero con signo)
+     
+ printf("Entero con punto: %f \n", j); //Imprime un valor flotante con el especificador %f ()
+   
+      
+ printf("Entero largo: %ld \n", k); //Imprime un valor entero largo con el especificador %ld
+   
+      
+ printf("Caracter: %c \n", l); //Imprime un caracter con el especificador %c
+   
+      
+ printf("Entero corto: %d \n", m); //Imprime un valor entero corto con el especificador %d
+   
+      
+ printf("String: %s \n", n); //Imprime una cadena de caracteres con el especificador %s
+         
+ printf("Doble: %lf \n", o);  //Imprime un valor de doble precisión con el especificador %lf
+   
+      
+ printf("Entero largo largo: %lld \n", p); //Imprime entero largo largo con el especificador %lld
+   
+  
+  printf("\n");
+  
+  return 0;
+}
