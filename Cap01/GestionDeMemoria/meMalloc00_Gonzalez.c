@@ -1,6 +1,6 @@
 /*****************************************************************
 Autor: Jocelyne Gonzalez Hernanadez
-Fecha: 13/08/2024
+Fecha: 13/08/2024 Modificado el 23/08/2024
 Materia:Sistemas Operativos
 Tema: Gestión de memoria
 Tópico: Reserva de memoria con la función malloc().
