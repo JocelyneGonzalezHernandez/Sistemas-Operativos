@@ -1,17 +1,19 @@
-/*
+/*****************************************************************
 Autor: Jocelyne Gonzalez Hernanadez
 Fecha: 13/08/2024
 Materia:Sistemas Operativos
 Tema: Gestión de memoria
 Tópico: Reserva de memoria con la función malloc().
-La función malloc reserva un espacio de memoria del tamaño especificado y devuelve un puntero al inicio del espacio reservado.
-*/
+
+*La función malloc() reserva un bloque de memoria del tamaño especificado y devuelve un puntero al inicio del bloque reservado. 
+*La memoria reservada no está inicializada y puede contener valores indeterminados.
+*****************************************************************/
 #include  <stdio.h> //Biblioteca para entrada y salida de datos
 #include <stdlib.h> //Biblioteca para funciones de memoria
 
 int main(){
-  int *bloque00=malloc(4*sizeof(int)); //Asigna un bloque de memoria de 4 enteros
-  int *puntero=malloc(15*sizeof(*puntero)); //Asigna un bloque de memoria de 15 enteros
+  int *bloque00=malloc(4*sizeof(int)); // Reserva memoria para 4 enteros y devuelve un puntero al bloque reservado
+  int *puntero=malloc(15*sizeof(*puntero)); // Reserva memoria para 4 enteros y devuelve un puntero al bloque reservado
 
   //BUCLE PARA RELLENAR LOS ESPACIOS
 
