@@ -14,6 +14,6 @@ Cambia el tamaño de un bloque de memoria previamente asignado con malloc o call
 
 Devuelve un puntero al nuevo bloque de memoria, que puede ser en una ubicación diferente. Si realloc no puede cambiar el tamaño, devuelve NULL y el bloque original permanece sin cambios.
 
-###void* realloc(void* ptr, size_t size);
--ptr: Puntero al bloque de memoria previamente asignado.
--size: Nuevo tamaño en bytes.
+### void* realloc(void* ptr, size_t size);
+- ptr: Puntero al bloque de memoria previamente asignado.
+- size: Nuevo tamaño en bytes.
