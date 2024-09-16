@@ -1,4 +1,5 @@
 /************************************************************************************
+Autor: Jocelyne Gonzalez Hernandez
 Fecha:20/08/2024
 Materia: Sistemas Operativos
 Tema: Vector dinámico
