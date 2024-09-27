@@ -11,6 +11,7 @@ Named Pipes es un mecanismo de comunicación inter-procesos (IPC) que permite a 
 - **Portabilidad:** Los named pipes son compatibles con múltiples plataformas y sistemas operativos.
 - **Los named pipes son efectivos para la comunicación entre procesos, facilitando el intercambio de mensajes en aplicaciones concurrentes**
 
+## Uso
 - **Crear un Named Pipe**: Para crear un named pipe, puedes usar la función `mknod` en sistemas Unix/Linux.
  -  mknod()
 
