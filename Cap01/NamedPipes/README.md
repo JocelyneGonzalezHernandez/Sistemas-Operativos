@@ -22,8 +22,8 @@ Named Pipes es un mecanismo de comunicación inter-procesos (IPC) que permite a 
           - 6: Permiso de lectura y escritura para el propietario (4+2).
           - 4: Permiso de lectura para el grupo.
           - 0: Sin permisos para otros usuarios.
-        - **0**: especificar el valor de dispositivo, que no se utiliza en el caso de los FIFOs.
-**
+        - **0**:Especificar el valor de dispositivo, que no se utiliza en el caso de los FIFOs.
+  
 - **Apertura del FIFO**: Los procesos pueden abrir el named pipe en modo lectura o escritura.
   - Para lectura: `open(FIFO_FILE, O_RDONLY)`
   - Para escritura: `open(FIFO_FILE, O_WRONLY)`
