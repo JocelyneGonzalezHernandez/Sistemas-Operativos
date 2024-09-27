@@ -9,10 +9,10 @@ Named Pipes es un mecanismo de comunicación inter-procesos (IPC) que permite a 
 - **Comunicación bidireccional:** Permite la comunicación en ambas direcciones entre el cliente y el servidor.
 - **Acceso concurrente:** Varios procesos pueden acceder a un named pipe al mismo tiempo, facilitando la sincronización.
 - **Portabilidad:** Los named pipes son compatibles con múltiples plataformas y sistemas operativos.
-  **Los named pipes son efectivos para la comunicación entre procesos, facilitando el intercambio de mensajes en aplicaciones concurrentes**
+- **Los named pipes son efectivos para la comunicación entre procesos, facilitando el intercambio de mensajes en aplicaciones concurrentes**
 
--**Crear un Named Pipe**: Para crear un named pipe, puedes usar la función `mknod` en sistemas Unix/Linux.
- - mknod()
+- **Crear un Named Pipe**: Para crear un named pipe, puedes usar la función `mknod` en sistemas Unix/Linux.
+ -  mknod()
 
 - **Apertura del FIFO**: Los procesos pueden abrir el named pipe en modo lectura o escritura.
   - Para lectura: `open(FIFO_FILE, O_RDONLY)`
