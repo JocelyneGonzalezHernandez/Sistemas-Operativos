@@ -23,5 +23,4 @@ Tipo_de_datos  nombre_de_la_funcion(tipo y nombre de argumentos)
   - Pueden existir funciones que no reciban argumentos.  
 - **Acciones:** Constituye el conjunto de acciones, de sentencias que cumplirá la función, cuando sea ejecutada.
 
-Una función, termina con la llave de cerrar, pero antes de esta llave, debemos colocarle la instrucción **return**, con la cual devolverá un valor específico. 
-- Si la función no devuelve ningún valor, es decir, es tipo void, no tiene que ir la sentencia return, ya que de lo contrario, nos dará un error.  
+Una función, termina con la llave de cerrar, pero antes de esta llave, debemos colocarle la instrucción **return**, con la cual devolverá un valor específico.
