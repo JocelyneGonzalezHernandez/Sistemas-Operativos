@@ -13,7 +13,7 @@ Named Pipes es un mecanismo de comunicación inter-procesos (IPC) que permite a 
 
 ## Uso
 - **Crear un Named Pipe**: Para crear un named pipe, puedes usar la función `mknod` en sistemas Unix/Linux.
- -  mknod()
+  -  mknod()
 
 - **Apertura del FIFO**: Los procesos pueden abrir el named pipe en modo lectura o escritura.
   - Para lectura: `open(FIFO_FILE, O_RDONLY)`
