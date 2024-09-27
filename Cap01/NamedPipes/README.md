@@ -1,7 +1,5 @@
 # Named Pipes
 
-## Descripción
-
 Named Pipes es un mecanismo de comunicación inter-procesos (IPC) que permite a los procesos intercambiar datos de manera eficiente en un sistema operativo. A diferencia de los pipes anónimos, los named pipes tienen un nombre asociado, lo que permite que los procesos se conecten a ellos independientemente de su relación de parentesco. Este enfoque facilita la comunicación entre procesos que pueden no estar relacionados o que se ejecutan en diferentes momentos.
 
 ## Características
