@@ -6,8 +6,8 @@ Ambos procesos pueden ejecutar código de manera concurrente, pero cada uno tien
 
 ### Proceso padre
 Después de la llamada a fork(), el proceso padre continúa su ejecución.
-  - Si ´fork()´ se ejecuta correctamente, el proceso padre recibe un valor positivo que es el ID del proceso hijo.
-  - Si ´fork()´ falla, el proceso padre recibe -1 y debe manejar el error apropiadamente.
+  - Si ´ fork() ´ se ejecuta correctamente, el proceso padre recibe un valor positivo que es el ID del proceso hijo.
+  - Si ´ fork() ´ falla, el proceso padre recibe -1 y debe manejar el error apropiadamente.
 
 ### Proceso hijo
 Es el nuevo proceso creado por la llamada a fork() en el proceso padre.
