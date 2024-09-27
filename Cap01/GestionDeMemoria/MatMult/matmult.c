@@ -1,9 +1,16 @@
-/*
+/************************************************************************
 Autor: Jocelyne Gonzalez Hernanadez
 Fecha: 06/08/2024
 Materia:Sistemas Operativos
 Tema: Evaluación del rendimiento de sistemas de cómputo
-*/
+Descripción:
+  -La evaluación del rendimiento de sistemas de cómputo implica analizar diversas métricas y factores que influyen en cómo se comporta un sistema bajo diferentes cargas.
+  -Utilizar hilos y  gestionar eficientemente la memoria, son estrategias para mejorar y medir el rendimiento en sistemas modernos.
+  -El tiempo de ejecución mide cuánto tarda un programa en completarse.
+  -Los hilos permiten ejecutar varias tareas simultáneamente (en paralelo o concurrencia) y
+  pueden mejorar significativamente el rendimiento en sistemas con múltiples núcleos.
+*************************************************************************/
+
 #include  <stdio.h> //Biblioteca para entrada y salida de datos
 #include <time.h> //Biblioteca para funciones de tiempo
 #include <stdlib.h> //Biblioteca para funciones de memoria
@@ -58,7 +65,7 @@ void imprimirMatriz(int sz, double *a){  //Debe ser N en lugar de sz
         }
       printf("\n");
     }
-  printf("---------------------\n"); //Separador de matrices
+  printf("-------------------------------------------------------------------\n"); //Separador de matrices
 }
 
 int main(int argc, char *argv[]){
@@ -72,21 +79,35 @@ int main(int argc, char *argv[]){
   int H= (int)atof(argv[2]);// Convierte el tercer argumento a entero (número de hilos)
 
   double *a, *b, *c; //Apuntadores
+
+  clock_t start, end;      //Variables para almacenar los tiempos de inicio y fin
+  double tiempoEjecucion;  //Variable para almacenar el tiempo total de ejecución
+  
   //Reserva de memoria inicial de matrices
   a= mem_chunck; //Asigna el inicio de la reserva de memoria a 'a'
   b= a + N*N; //Asigna la siguiente parte del bloque de memoria a 'b'
   c= b + N*N; //Asigna la parte final del bloque de memoria a 'c'
 
-  printf("Valores ingresados:\n");
+  printf("\n\nValores ingresados:\n");
   printf("Matriz Size (NxN): %dx%d\n", N,N); //Imprime el tamaño de la matriz
-  printf("Número de hilos (H):%d\n", H); //Imprime el número de hilos
+  printf("Número de hilos (H):%d\n\n\n", H); //Imprime el número de hilos
 
   iniciarMatriz(N, a, b, c); //Inicializa las matrices A, B y C
   imprimirMatriz(N, a); //Imprime la matriz A
   imprimirMatriz(N, b); //Imprime la matriz B
+  
+  
+   // Medición de tiempo para la multiplicación
+  start = clock();   //Inicia el contador
   multiplicarMatriz(N,a,b,c); //Multiplica las matrices A y B y asigna el resultado a la matriz C
-  printf("---------RESULTADO---------\n");
+  end = clock();     //Termina el contador
+  
+  printf("-----------------------------RESULTADO-----------------------------\n");
   imprimirMatriz(N,c); //Imprime la matriz resultante C
+  
+  
+  tiempoEjecucion = (double)(end - start) / CLOCKS_PER_SEC; //Calcula el tiempo en segundos
+  printf("\nTiempo de ejecución: %f segundos\n", tiempoEjecucion);   //Imprime el tiempo de ejecución
   
 
   return 0;
