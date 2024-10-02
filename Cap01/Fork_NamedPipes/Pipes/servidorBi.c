@@ -16,7 +16,8 @@ Descripción:
       -Permite que un proceso (CLIENTE) envíe datos a otro, 
       de manera que el proceso destino (SERVIDOR) pueda leer y escribar datos en respuesta.
 
-                                                         SERVIDOR                                                      ****************************************************************************************************************************************/
+                                                         SERVIDOR - CLIENTE                                                      
+****************************************************************************************************************************************/
 
 #include <stdio.h>
 #include <sys/stat.h>
