@@ -15,3 +15,5 @@ El proceso hijo tiene una copia casi exacta del contexto del padre, incluyendo s
   - Puede ejecutar su propio código, permitiendo la realización de tareas independientes del padre.
   - El proceso hijo recibe 0 como valor de retorno de `fork()`, lo que lo identifica como el proceso hijo.
   - Si hay un error en la creación del proceso, este no recibirá un valor de retorno positivo ni negativo, ya que no será creado.
+
+Enlace a los otros programas fork(): https://github.com/JocelyneGonzalezHernandez/Sistemas-Operativos/tree/main/Cap01/Fork
