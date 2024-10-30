@@ -4,7 +4,7 @@ Para evaluar el rendimiento de la máquina virtual 10.43.103.148, se ejecutaron 
 
 Los resultados se registraron en una hoja de cálculo, donde se calcularon los promedios. Posteriormente, se creó una gráfica de barras para facilitar la comparación visual de los tiempos de ejecución.
 
-![GRÁFICO](https://github.com/JocelyneGonzalezHernandez/Sistemas-Operativos/blob/main/MaquinasVirtuales/Evaluacion/Archivo/EvaluacionRendimiento.png)
+![GRÁFICO](https://github.com/JocelyneGonzalezHernandez/Sistemas-Operativos/blob/main/MaquinasVirtuales/Evaluacion/Archivo/EvaluacionRendimiento1.png)
 
 - En ambos métodos de multiplicación de matrices (clásico y transpuesta), a medida que se aumenta el número de hilos de 1 a 4, el tiempo de ejecución disminuye, lo cual es un efecto esperado al distribuir la carga de trabajo en múltiples hilos.
 - En matrices de tamaño 1000 x 1000 y 2000 x 2000, el uso de 4 hilos reduce casi a la mitad el tiempo de ejecución en comparación con 1 hilo.
