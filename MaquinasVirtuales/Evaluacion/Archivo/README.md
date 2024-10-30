@@ -4,4 +4,4 @@ Para evaluar el rendimiento de la máquina virtual 10.43.103.148, se ejecutaron 
 
 Los resultados se registraron en una hoja de cálculo, donde se calcularon los promedios. Posteriormente, se creó una gráfica de barras para facilitar la comparación visual de los tiempos de ejecución.
 
-![GRÁFICO](MaquinasVirtuales/Evaluacion/Archivo/EvaluacionRendimiento.png)
+![GRÁFICO](Sistemas-Operativos/MaquinasVirtuales/Evaluacion/Archivo/EvaluacionRendimiento.png)
