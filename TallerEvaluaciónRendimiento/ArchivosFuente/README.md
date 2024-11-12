@@ -1,3 +1,5 @@
+# Ejecucion del programa
+
 1. Compilar el archivo fuente .c que necesite y llamar al ejecutable MM_ejecutable
    `gcc archivo.c -o MM_ejecutable`
 2. Asegurarse de que el archivo lanza.pl es ejecutable
