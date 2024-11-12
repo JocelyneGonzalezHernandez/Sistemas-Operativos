@@ -4,9 +4,7 @@
     Materia  : Sistemas Operativos
     Profesor : John Corredor Franco
 *  ──────────────────────────────────────────────────────────────────────────────
-      Este programa implementa un sistema de comunicación mediante tuberías FIFO,
-      permitiendo que un publicador envíe noticias a suscriptores interesados en
-      categorías específicas.
+  Este programa implementa un sistema de comunicación mediante tuberías FIFO, permitiendo que un publicador envíe noticias a suscriptores interesados en categorías específicas.
  * ──────────────────────────────────────────────────────────────────────────────
    Autores:
      - Jocelyne González
